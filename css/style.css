@@ -68,22 +68,38 @@ hr {
     color: darkgray;
 }
 
-.container-blue-list { 
+.container-list {
+    font-size: 11px;
+    font-weight: normal;
     display: inline-block;
     color: white;
+    padding: 3px;
+    border-radius: 20px;
+}
+.bg-blue { 
     background-color: rgb(35, 134, 255);
-    padding: 3px;
-
-    border-radius: 20px;
 }
 
-#container-purple-list {
-    display: inline-block;
-    color: white;
+.bg-purple {
     background-color: rgb(157, 36, 255);
-    padding: 3px;
-    border-radius: 20px;
 }
+
+.bg-darkgreen {
+    background-color: rgb(0, 180, 84);
+}
+
+.bg-orange {
+    background-color: rgb(253, 122, 16);
+}
+
+.bg-pink {
+    background-color: rgb(250, 60, 253);
+}
+
+.bg-lightgreen {
+    background-color: rgb(94, 221, 121);
+}
+
 
 .check {
     border: 1px solid green;
