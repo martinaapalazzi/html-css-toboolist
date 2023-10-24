@@ -68,14 +68,23 @@ hr {
     color: darkgray;
 }
 
-#container-blue-list { 
+.container-blue-list { 
     display: inline-block;
     color: white;
     background-color: rgb(35, 134, 255);
-    padding: 5px;
+    padding: 3px;
+
     border-radius: 20px;
-    
 }
+
+#container-purple-list {
+    display: inline-block;
+    color: white;
+    background-color: rgb(157, 36, 255);
+    padding: 3px;
+    border-radius: 20px;
+}
+
 .check {
     border: 1px solid green;
     border-radius: 50%;
