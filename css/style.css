@@ -9,7 +9,7 @@
 /* GENERAL */
 
 body{
-    background-color: lightgray;
+    background-color: rgb(238, 238, 238);
 }
 
 ul, ol {
@@ -67,4 +67,30 @@ h6 {
 
 hr {
     color: darkgray;
+}
+
+.check {
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+    display: inline-block;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+}
+
+.not-done {
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+    display: inline-block;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+}
+
+li {
+    font-family: sans-serif;
 }
